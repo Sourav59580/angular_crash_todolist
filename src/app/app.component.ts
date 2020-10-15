@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {} from './components/todos/todos.component'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-crash-todolist';
+  constructor(){
+    console.warn(123)
+  }
 }
