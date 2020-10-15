@@ -26,7 +26,7 @@ export class TodoItemComponent implements OnInit {
   }
 
   onDelete(todo){
-    console.log("delete")
+    console.log("todo delete")
   }
 
 }
